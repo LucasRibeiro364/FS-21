@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: brown;" align="center">Tabela de alunos</h1>
+    <table width="850" border="1" align="center" >
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Turma</th>
+        </tr>
+
+        <tr align="center">
+            <td>99440331</td>
+            <td>Luiz Filho</td>
+            <td>18</td>
+            <td>FS22</td>
+        </tr>
+
+        <tr align="center">
+            <td>99440398</td>
+            <td>Jefferson Silva</td>
+            <td>17</td>
+            <td>FS21</td>
+        </tr>
+
+        <tr align="center">
+            <td>99440368</td>
+            <td>Lucas Sousa</td>
+            <td>34</td>
+            <td>FS20</td>
+        </tr>
+
+        <tr align="center">
+            <td>99440221</td>
+            <td>Amanda Ribeiro</td>
+            <td>23</td>
+            <td>FS21</td>
+        </tr>
+    </table><br><br>
+
+    <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: brown;" align="center">Novos cadastros</h1>
+
+    <form align="center" style="border: 2px solid black; padding: 20px; width: 300px; margin: 0 auto; text-align: left;" >
+        <label for="name">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Escreva seu nome"><br><br>
+
+        <label for="age">Idade</label>
+        <input type="number" name="age" id="age" placeholder="Digite sua idade"><br><br>
+
+        <label for="class">Turma</label>
+        <select name="class" id="class">
+            <option value="">Selecione a turma</option>
+            <option value="FS19">FS19</option>
+            <option value="FS20">FS20</option>
+            <option value="FS21">FS21</option>
+            <option value="FS22">FS22</option>
+        </select><br><br>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu E-mail"><br><br>
+
+        <button value="">Criar cadastros</button>
+
+
+    </form>
+</body>
+</html>
